@@ -9,6 +9,15 @@ This project is a React component featuring an enhanced input box with support f
 - Autoresizing textarea to accommodate text.
 - Styled with TailwindCSS for modern, responsive design.
 
+## Screenshots
+
+![screencapture-enhancedinput-netlify-app-2025-01-16-18_05_37](https://github.com/user-attachments/assets/0636bde2-542f-44f7-9165-b482941d02ef)
+![screencapture-enhancedinput-netlify-app-2025-01-16-18_06_10](https://github.com/user-attachments/assets/f2f7a86d-83a1-4f56-90d8-a6fac641bdd9)
+![screencapture-enhancedinput-netlify-app-2025-01-16-18_06_37](https://github.com/user-attachments/assets/9f56e899-97dc-4ba7-840f-c2e7b14f8f20)
+
+
+
+
 ## Installation
 
 1. Clone the repository:

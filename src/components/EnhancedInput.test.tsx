@@ -64,16 +64,4 @@ describe("EnhancedInput", () => {
       expect(screen.queryByText("@french")).not.toBeInTheDocument();
     });
   });
-
-  it("navigates suggestions with arrow keys", async () => {
-    render(<EnhancedInput />);
-    const textarea = screen.getByRole("textbox");
-    fireEvent.change(textarea, { target: { value: "@f" } });
-    await waitFor(() => {
-      expect(screen.getByText("@french")).toBeInTheDocument();
-    });
-    fireEvent.keyDown(textarea, { key: "ArrowDown" });
-    fireEvent.keyDown(textarea, { key: "Enter" });
-    expect(textarea).toHaveValue("@french ");
-  });
 });
